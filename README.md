@@ -1,2 +1,2 @@
 # pssetup
-A script to setup commonly used applications
+Winston's Powershell script to setup my commonly used applications.
