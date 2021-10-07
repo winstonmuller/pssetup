@@ -1,2 +1,2 @@
 # pssetup
-Winston's Powershell script to setup my commonly used applications.
+Use a powershell script to automate basic development machine setup.
