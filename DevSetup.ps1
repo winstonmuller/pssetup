@@ -1,6 +1,6 @@
-$chocolateyAppList = "dotnetcore-sdk,dotnetcore-windowshosting,vscode,git,gitextensions"
+$chocolateyAppList = "dotnetcore-sdk,dotnetcore-windowshosting,vscode,git,gitextensions,nodejs"
 
-$apps = $chocolateyAppList -split ',' | foreach { "$($_.Trim())" }
+$apps = $chocolateyAppList -split ',' | ForEach-Object { "$($_.Trim())" }
 
 foreach ($app in $apps)
 {
